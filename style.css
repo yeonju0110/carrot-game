@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: bisque;
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+}
+body {
+  background-color: black;
+  text-align: center;
+}
+.game {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-image: url("img/background.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.set {
+  padding-top: 20px;
+}
+
+.set__time {
+  background-color: white;
+  width: 150px;
+  margin: 5px auto;
+  padding: 3px 0;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 28px;
+}
+.set__count {
+  background-color: orange;
+  color: white;
+  font-size: 48px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 5px 0;
+  margin: 5px auto;
+}
+
+.play__final {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 8px 0;
+}
+
+.play__result {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
